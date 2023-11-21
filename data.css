@@ -1,0 +1,125 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .cardholder {
+    width: 100%;
+    
+   
+  }
+  .mycard {
+    
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 0;
+    align-items: center;
+
+  }
+  .imageDisp {
+    display: block;
+    width: 90%;
+    height: 60%;
+    background-color: red;
+  }
+  .novo {
+    background-color:rgb(156, 202, 242);
+    width: 100%;
+    border-radius: 0;
+   
+  }
+  
+  .novo img {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(87, 227, 187);
+    border-radius:0;
+  }
+ 
+  .wallet {
+    background-color: rgba(255,255,255,0.5);
+    top:0;
+    width: 100%;
+    height:70px;
+    position: sticky;
+    text-align: center;
+  
+  }
+  .wallet input {  
+      width: 40%;
+      height: 40%;
+      border-radius: 20px;
+     
+  }
+  
+ 
+  .info {
+    width: 96%;
+    background-color: rgb(141, 138, 242);
+    padding: 10px;
+    margin: 8px;
+  }
+}
+
+/* //website view// */
+.cardholder {
+  width: 100%;
+  background-color: rgb(60, 52, 69);
+}
+.mycard {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-left: 75px;
+  gap: 120px;
+  background-color: rgb(97, 97, 142);
+}
+.imageDisp{
+  display: flex;
+  width: 80%;
+  height: 60%;
+  background-color: rgb(156, 214, 186);
+  
+}
+.novo {
+  background-color: rgba(248, 255, 252, 0.632);
+  width: 100%;
+  
+  
+}
+.novo img {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(87, 227, 187);
+  border-radius:0;
+}
+.wallet {
+  background-color: rgba(255,255,255,0.5);
+  top:0;
+  width: 100%;
+  height:70px;
+  position: sticky;
+  text-align: center;
+
+}
+.wallet input {
+
+  width: 30%;
+  height: 70%;
+  border-radius: 20px;
+  margin: 10px;
+  padding-left: 20px;
+
+}
+.info {
+  background-color: rgb(141, 138, 242);
+  padding-top: 50px;
+  width: 100%;
+  
+}
+
